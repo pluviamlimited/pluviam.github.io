@@ -41,7 +41,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
-    color: #515656
+    color: #333
 }
 
 input:-webkit-autofill,
@@ -133,6 +133,7 @@ input:-webkit-autofill:focus {
 .gray-bg {
     background-color: #f2fefe
 }
+
 
 .button {
     display: inline-block;
@@ -510,6 +511,10 @@ input:-webkit-autofill:focus {
 
 .single-team:hover .social-menu {
     bottom: 0
+}
+
+.team-area {
+    background: url('https://www.osu.edu/assets/downloads/images/bigpics/Oval_2_1600x1200.jpg') no-repeat scroll center center/cover
 }
 
 .testimonial-area {
