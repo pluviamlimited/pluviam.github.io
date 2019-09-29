@@ -13,7 +13,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #000
+    color: #ccc
 }
 
 img {
@@ -196,13 +196,13 @@ input:-webkit-autofill:focus {
     transition: .3s;
     border-radius: 5px;
     -webkit-transform: translateY(0);
-    transform: translateY(0)
+    transform: translateY(10)
 }
 
 .box:hover {
     -webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 30px -5px rgba(0, 0, 0, .1);
-    background-color: #fff;
+    background-color: #333;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px)
 }
