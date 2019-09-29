@@ -215,7 +215,10 @@ input:-webkit-autofill:focus {
     height: 160px;
     margin-bottom: 20px
 }
-
+.box .box-icon1 img{
+    -webkit-transition: .3s;
+    transition: .3s
+}
 .box .box-icon img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
