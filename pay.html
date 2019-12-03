@@ -332,7 +332,7 @@ $(document).ready(function() {
 </script>
 <script type="text/javascript">
             // this identifies your website in the createToken call below
-            Stripe.setPublishableKey('pk_test_xxxxxxxxxxxxxxxxxxxxxxxx');  // Your Publishable Key
+            Stripe.setPublishableKey('pk_test_b3CzQUjhOt3f8I36pwHEV7Bh00By7ZHpPY');  // Your Publishable Key
  
             function stripeResponseHandler(status, response) {
                 if (response.error) {
@@ -371,7 +371,8 @@ $error = '';
 $success = '';
 	  
 if ($_POST) {
-  Stripe::setApiKey("sk_test_xxxxxxxxxxxxxxxxxxxxxx");  // Your Secret Key 
+  Stripe::setApiKey("sk_test_NgrSfzxqWoq0K76MAr89OGYV00uJXUwfRc
+");  // Your Secret Key 
   try {
 	if (empty($_POST['street']) || empty($_POST['city']) || empty($_POST['zip']))
       throw new Exception("Fill out all required fields.");
